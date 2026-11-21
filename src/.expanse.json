@@ -1,0 +1,187 @@
+{
+  "entrySpaceId": "336e0857-d2b2-4c7d-845a-e78d7c3d778d",
+  "objects": {
+    "5e187c04-b9e7-460c-965a-345cbdd8257e": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "5e187c04-b9e7-460c-965a-345cbdd8257e",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "336e0857-d2b2-4c7d-845a-e78d7c3d778d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "72cbc0ce-8bc4-4ba4-b16e-1762bed96a99": {
+      "components": {},
+      "geometry": null,
+      "id": "72cbc0ce-8bc4-4ba4-b16e-1762bed96a99",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "336e0857-d2b2-4c7d-845a-e78d7c3d778d",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "78a8790e-e7a0-4612-9be1-c4288000db8d": {
+      "components": {},
+      "geometry": null,
+      "id": "78a8790e-e7a0-4612-9be1-c4288000db8d",
+      "imageTarget": {
+        "name": "WhatsApp_Image_2026-11-20_at_8_30_33_PM_2"
+      },
+      "material": null,
+      "name": "Marcador1",
+      "order": 4.5,
+      "parentId": "336e0857-d2b2-4c7d-845a-e78d7c3d778d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a140e8f9-2979-493c-a7ff-bb502e28cdb4": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.664,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 0.5625,
+        "height": 1
+      },
+      "id": "a140e8f9-2979-493c-a7ff-bb502e28cdb4",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Monstruo_se_mueve_tubos_entrelazan_46337453.mp4"
+        }
+      },
+      "name": "video1",
+      "order": 0.1270592884883499,
+      "parentId": "78a8790e-e7a0-4612-9be1-c4288000db8d",
+      "position": [
+        0,
+        0,
+        0.031
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "a5977975-f527-4245-b2f8-2cafe07f8a03": {
+      "components": {},
+      "geometry": null,
+      "id": "a5977975-f527-4245-b2f8-2cafe07f8a03",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "336e0857-d2b2-4c7d-845a-e78d7c3d778d",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "336e0857-d2b2-4c7d-845a-e78d7c3d778d": {
+      "activeCamera": "5e187c04-b9e7-460c-965a-345cbdd8257e",
+      "id": "336e0857-d2b2-4c7d-845a-e78d7c3d778d",
+      "name": "Espacio principal"
+    }
+  }
+}
